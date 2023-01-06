@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-Nesse projeto, eu criei um site inspirado no energetico da Monster, onde é apresentada um breve resumo da historia da monster, além de seus princiapais sabores e as marcas relacionadas a monster. Concluindo com algumas avaliações de outras pessoas sobre a monster é um formulario para receberem novas atualizações da marca.
+Nesse projeto, eu criei um site inspirado no energético da Monster, onde é apresentada um breve resumo da historia da monster, além de seus princiapais sabores e as marcas relacionadas a monster. Concluindo com algumas avaliações de outras pessoas sobre a monster é um formulario para receberem novas atualizações da marca.
 
 # Tecnologias utilizadas
 ## Back end
