@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'monster';
+    src: url('/Assets/FONTS/kidie_monster/Kidie\ Monster-puo.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --verde-principal: #2EFC2B;
+    --verde-secundario: #26CC23;
+    --verde-alternativo: #30CC4A; 
+    --cor-fundo: #060606;
+
+    --fonte-principal: Arial, Verdana, sans-serif;
+    --fonte-texto: 'monster', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--cor-fundo);
+    color: var(--verde-alternativo);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+}
+
+
+/* #menu-main {
+    display: flex;
+}
+
+#menu-main #list-main {
+    display: flex;
+} */
+
+header nav li a {
+    color: var(--verde-alternativo);
+}
+
+.conteiner {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.conteiner #menu-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner #menu-main #list-main {
+    display: flex;
+    gap: 13px;
+}

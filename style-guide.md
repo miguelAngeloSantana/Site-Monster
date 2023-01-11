@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido com as seguintes dimensões
 
 - Mobile: 375px
 - Tablet: 900px
-- Desktop: 1440px
+- Desktop: 1200px
 
 ## cores
 
@@ -25,6 +25,4 @@ Esse projeto foi desenvolvido com as seguintes dimensões
 - Font size: 16px
 
 ### fontes
--Fonte-principal: [MONSTER] (https://www.dafont.com/pt/monster-2.font)
-
--Fonte-secundaria: [Alice_PersonalUseOnly] (https://www.dafont.com/pt/alice-3.font)
+-Fonte-principal: [Kidie Monster] (https://www.dafont.com/pt/kidie-monster.font?text=Monster+energy)
