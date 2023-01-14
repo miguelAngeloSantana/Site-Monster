@@ -35,10 +35,14 @@ img {
     text-transform: uppercase;
 }
 
+.btn:hover {
+    background-color: var(--verde-alternativo);
+    transition: ease-in-out 1s;
+}
+
 body {
     font-size: 16px;
     background-color: var(--cor-fundo);
-    /* color: var(--verde-principal); */
 }
 
 header {
@@ -79,11 +83,6 @@ header nav li a {
     color: #fff;
 }
 
-.conteiner #menu-main .button .btn:hover {
-    background-color: var(--verde-alternativo);
-    transition: ease-in-out 1s;
-}
-
 
 
 #about {
@@ -112,6 +111,10 @@ header nav li a {
     line-height: 25px;
 }
 
+.section-about .section-about--left .btn a {
+    color: var(--verde-alternativo);
+}
+
 .section-about .section-about--right {
     justify-content: flex-end;   
 }
@@ -120,7 +123,6 @@ header nav li a {
 
 #different {
     font-family: 'monster';
-    color: #fff;
     margin-top: 70px;
 }
 
@@ -140,26 +142,76 @@ header nav li a {
 }
 
 .card-section .cards-section {
-    width: 280px;
+    width: 360px;
     border: 1px solid #fff;
     text-align: left;
     height: auto;
     margin-right: 9px;
+    margin-top: 10px;
     padding: 12px;
 }
 
-.card-section .cards-section .text-line {
-    display: flex;
-}
-
-.card-section .cards-section .text-line span {
-    margin-right: 30px;
-    margin-left: 9px;
-    margin-bottom: 13px;
+.card-section .cards-section h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .card-section .cards-section p {
     color: var(--verde-alternativo);
-    font-size: 19px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+#photo-galery {
+    font-family: 'monster';
+    margin-top: 70px;
+}
+
+
+.section-foto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.section-foto .section-fotos {
+    padding: 5rem;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.section-foto .section-fotos h3 {
+    color: var(--verde-principal);
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+.section-foto .section-fotos p {
+    color: var(--verde-secundario);
+    font-size: 1.6rem;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.section-foto .section-fotos img {
+    height: 10rem;
+}
+
+.section-foto .section-fotos .flex-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-foto .section-fotos .flex-info div {
+    color: var(--verde-alternativo);
+    font-family: Arial;
+}
+
+.section-foto .section-fotos .btn-foto {
+    color: var(--verde-principal);
+    padding: 9px 15px;
 }
