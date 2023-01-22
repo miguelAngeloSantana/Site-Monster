@@ -13,6 +13,8 @@
 
     --fonte-principal: Arial, Verdana, sans-serif;
     --fonte-texto: 'monster', sans-serif;
+
+    --border-style: 2px solid #fff;;
 }
 
 * {
@@ -42,6 +44,7 @@ img {
 
 body {
     font-size: 16px;
+    font-family: var(--fonte-texto);
     background-color: var(--cor-fundo);
 }
 
@@ -87,7 +90,6 @@ header nav li a {
 
 #about {
     margin-top: 30px;
-    font-family: 'monster';
 }
 
 
@@ -122,7 +124,6 @@ header nav li a {
 
 
 #different {
-    font-family: 'monster';
     margin-top: 70px;
 }
 
@@ -143,7 +144,8 @@ header nav li a {
 
 .card-section .cards-section {
     width: 360px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
+    border: var(--border-style);
     text-align: left;
     height: auto;
     margin-right: 9px;
@@ -166,10 +168,28 @@ header nav li a {
 
 
 #photo-galery {
-    font-family: 'monster';
-    margin-top: 70px;
+    margin-top: 160px;
 }
 
+#photo-galery .desc-galery {
+    text-align: center;
+}
+
+#photo-galery .desc-galery h2 {
+    color: var(--verde-principal);
+    font-size: 2.5rem;
+    margin-bottom: 18px;
+}
+
+#photo-galery .desc-galery p {
+    font-size: 1.7rem;
+    color: var(--verde-secundario);
+    margin-bottom: 24px;
+}
+
+#photo-galery .desc-galery .btn-photo .btn {
+    margin-bottom: 24px;
+}
 
 .section-foto {
     display: grid;
@@ -180,7 +200,7 @@ header nav li a {
 .section-foto .section-fotos {
     padding: 5rem;
     text-align: center;
-    border: 2px solid #fff;
+    border: var(--border-style);
 }
 
 .section-foto .section-fotos h3 {
@@ -214,4 +234,177 @@ header nav li a {
 .section-foto .section-fotos .btn-foto {
     color: var(--verde-principal);
     padding: 9px 15px;
+}
+
+
+
+
+#products {
+    margin-top: 150px;
+}
+
+#products h2, p {
+    text-align: center;
+}
+
+#products h2 {
+    color: var(--verde-principal);
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+
+#products .desc {
+    color: var(--verde-alternativo);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    /* gap: 28px; */
+}
+
+.product .product-section {
+    text-align: center;
+    border: var(--border-style);
+    width: 370px;
+    position: relative;
+    padding: 18px;
+    margin-bottom: 19px;
+}
+
+.product .product-section h3 {
+    color: var(--verde-secundario);
+    margin-bottom: 16px;
+    margin-top: 14px;
+    font-size: 26px;
+}
+
+.product .product-section p {
+    color: var(--verde-alternativo);
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.product .product-section .product-info {
+    color: var(--verde-secundario);
+    margin-top: 30px;
+    font-size: 2.2rem;
+}
+
+
+
+#cousterms {
+    margin-top: 150px;
+}
+
+#cousterms .review {
+    color: var(--verde-principal);
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 26px;
+}
+
+.opinioes {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.opinioes .opiniao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: var(--border-style);
+    width: 370px;
+    /* height: auto; */
+    padding: 19px;
+}
+
+.opinioes .opiniao h1 {
+    color: var(--verde-principal);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    margin-top: 18px;
+}
+
+.opinioes .opiniao h3 {
+    color: #fff;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    line-height: 27px;
+}
+
+.opinioes .opiniao .aspas {
+    margin-bottom: 14px;
+}
+
+
+#news {
+    margin-top: 90px;
+    height: 600px;
+}
+
+.flex-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.flex-form .flex-form-right {
+    width: 450px;
+}
+
+.flex-form .flex-form-right h1 {
+    font-size: 2.7rem;
+    margin-bottom: 24px;
+    color: var(--verde-principal);
+}
+
+.flex-form .flex-form-right p {
+    font-size: 1.8rem;
+    color: var(--verde-secundario);
+}
+
+.flex-form .flex-form-left {
+    width: 55%;
+}
+
+.flex-form .flex-form-left form{
+    margin-top: 30px;
+    border: var(--border-style);
+    padding: 22px;
+    height: auto;
+}
+
+.flex-form .flex-form-left form label {
+    color: var(--verde-principal);
+    font-size: 1.5rem;
+}
+
+.flex-form .flex-form-left form .form-control {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #fff;
+    background-color: #fff;
+    outline: none;
+}
+
+.flex-form .flex-form-left form .input-box {
+    margin-right: 16px;
+}
+
+.flex-form .flex-form-left form .btn-form {
+    text-align: center;
+}
+
+.flex-form .flex-form-left form .btn-form .btn {
+    width: 200px;
 }
