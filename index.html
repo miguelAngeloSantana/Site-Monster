@@ -14,6 +14,7 @@
                 <div class="img-logo">
                     <img src="Assets/imagens-monster/monster-logo.png" alt="Logo da monster">
                 </div> 
+
                 <ul id="list-main">
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#different">Diferente</a></li>
@@ -26,6 +27,10 @@
                     <button class="btn"><a href="https://www.monsterenergy.com/">Veja Mais</a></button>
                 </div>
             </nav>
+            <div id="hamburguer">
+                <img src="Assets/imagens-monster/hamburguer.png" alt="icone hamburguer" class="open">
+                <img src="Assets/imagens-monster/close-icon.png" alt="icone close" class="close">
+            </div>
         </div>
     </header>
 
@@ -41,8 +46,10 @@
                             Ja a lata a um M, e, alusão ao nome da bebida, desenhada para parecer como se fossem garras de um mostro ragando a lata</p>
 
                             <br />
-                            <button class="btn"><a href="https://en.wikipedia.org/wiki/Monster_Energy">Clique para ler mais</a></button>
-                    </div>
+                            <div class="btn-about">
+                                <button class="btn"><a href="https://en.wikipedia.org/wiki/Monster_Energy" target="_blank">Clique para ler mais</a></button>
+                            </div>
+                        </div>
 
                     <div class="section-about--right">
                         <img src="Assets/imagens-monster/monster-energy-about.png" alt="Ilustração da monster">
@@ -56,7 +63,7 @@
                 <h2>O que torna a MONSTER diferente</h2>
                 <div class="card-section">
                     <div class="cards-section um">
-                        <h3>público da MONSTER</h3>
+                        <h3>Público da MONSTER</h3>
                         <p>
                             Diferente das outras bebidas, a MONSTER tem como alvo os estudantes, que precisam de uma 
                             energia extra durante o dia. Tendo como alvo também, as pessoas que trabalham durante o dia, e ventualmente
@@ -88,71 +95,58 @@
                 <div class="desc-galery">
                     <h2>Sabores da MONSTER</h2>
                     <p>Abaixo há alguns de nossos principais sabores com a media do valor que cada uma pode custar</p>
-                    <div class="btn-photo">
-                        <button class="btn"><a href="https://www.monsterenergy.com/br/pt_br/products/monster-energy">Saiba mais</a></button>
-                    </div>
                 </div>
-                <!-- <button><a href="https://www.monsterenergy.com/br/pt_br/products/monster-energy">Saiba mais</a></button> -->
                 <div class="section-foto">
                     <div class="section-fotos foto-one">
                         <img src="Assets/imagens-monster/monster-energy-main.png" alt="Ilustração da lata da monster">
                         <h3>Monster Energy</h3>
                         <p>Com um sabor unico e uma presença viciante.</p>
-                        <div class="flex-info">
-                            <div>R$ 9,50</div>
-                            <button class="btn btn-foto">Comprar</button>
-                        </div>
+                        <span>R$ 9,50</span>
+                        <button class="btn btn-foto">Comprar</button>
                     </div>
 
                     <div class="section-fotos foto-two">
                         <img src="Assets/imagens-monster/monster-absolutely-zero.png" alt="Ilustração da lata da absolutely zero da monster">
                         <h3>Monster Energy Absolutely Zero</h3>
                         <p>Com o mesmo sabor, mais com menor calorias e zero acuçar.</p>
-                        <div class="flex-info">
-                            <div>R$ 15,00</div>
-                            <button class="btn btn-foto">Comprar</button>
-                        </div>
+                        <span>R$ 15,00</span>
+                        <button class="btn btn-foto">Comprar</button>
                     </div>
 
                     <div class="section-fotos foto-three">
                         <img src="Assets/imagens-monster/monster-energy-ultra-paradise.png" alt="Ilustração da lata da ultra paraside da monster">
                         <h3>Monster Energy Ultra Paraside</h3>
                         <p>Com um sabor pura, refrescante e revogirante, tendo o sabor de kiwi com maça verde, sem açucar.</p>
-                        <div class="flex-info">
-                            <div>R$ 14,90</div>
-                            <button class="btn btn-foto">Comprar</button>
-                        </div>
+                        <span>R$ 14,90</span>
+                        <button class="btn btn-foto">Comprar</button>
                     </div>
 
                     <div class="section-fotos foto-four">
                         <img src="Assets/imagens-monster/monster-energy-ultra.png" alt="Ilustração da lata zero ultra da monster">
                         <h3>Monster Energy Ultra Zero</h3>
                         <p>Com um sabor mais leve, mais refrescamte, livre de açucar e calorias.</p>
-                        <div class="flex-info">
-                            <div>R$ 10,00</div>
-                            <button class="btn btn-foto">Comprar</button>
-                        </div>
+                        <span>R$ 10,00</span>
+                        <button class="btn btn-foto">Comprar</button>
                     </div>
 
                     <div class="section-fotos foto-five">
                         <img src="Assets/imagens-monster/monster-violot.png" alt="Ilustração da lata da ultra violet da monster">
                         <h3>Monster Energy Ultra Violet.</h3>
                         <p>Com um sabor de uva cítrica e sem açucar, a ultra violet é inspirada nos anos 70, tendo um estilo único e inconfundível</p>
-                        <div class="flex-info">
-                            <div>R$ 10,00</div>
-                            <button class="btn btn-foto">Comprar</button>
-                        </div>
+                        <span>R$ 10,00</span>
+                        <button class="btn btn-foto">Comprar</button>
                     </div>
 
                     <div class="section-fotos foto-six">
                         <img src="Assets/imagens-monster/Monster-Energy-Ultra-Red.png" alt="Ilustração da lata da ultra red da monster">
                         <h3>Monster Energy Ultra Violet</h3>
                         <p>Com um sabor a mirtilos que combina a potência energética com um toque leve e fresco.</p>
-                        <div class="flex-info">
-                            <div>R$ 13,90</div>
-                            <button class="btn btn-foto">Comprar</button>
-                        </div>
+                        <span>R$ 13,90</span>
+                        <button class="btn btn-foto">Comprar</button>
                     </div>
+                </div>
+                <div class="btn-photo">
+                    <button class="btn"><a href="https://www.monsterenergy.com/br/pt_br/products/monster-energy">Saiba mais</a></button>
                 </div>
             </div>
         </section>
@@ -170,7 +164,7 @@
                             tempo de recuperação após a prática de exercícios e reidratação.
                         </p>
                         <div class="product-info">
-                            <div>R$ 7,19</div>
+                            <span>R$ 7,19</span>
                         </div>
                     </div>
 
@@ -181,7 +175,7 @@
                             uma influência em uma area diferete das demais, as músicas eletrônicas, tendo uma presença constate em festas e festiasi de música eletrônicas.
                         </p>
                         <div class="product-info">
-                            <div>R$ 6,40</div>
+                            <span>R$ 6,40</span>
                         </div>
                     </div>
 
@@ -193,7 +187,7 @@
                             concentração, a velociade de reação e da resistencia fisica, alem de estimular no metebolismo e ajudar na desintoxição do organismo.
                         </p>
                         <div class="product-info">
-                                <div>R$ 12,00</div>
+                                <span>R$ 12,00</span>
                         </div>
                     </div>
 
@@ -205,7 +199,7 @@
                             agitado. Ajuando também quem precisa enfrentar qualquer desafio durante dia todo.
                         </p>
                         <div class="product-info">
-                            <div>R$ 17,70</div>
+                            <span>R$ 17,70</span>
                         </div>
                     </div>
 
@@ -216,7 +210,7 @@
                             mais estamina, focu e conduzir sua necessidade quando precisar.
                         </p>
                         <div class="product-info">
-                            <div>R$ 5,00</div>
+                            <span>R$ 5,00</span>
                         </div>
                     </div>
 
@@ -227,10 +221,18 @@
                             para as pessoas explorar, criar, se divertir e viver a vida ao máximo, do nascer ao pôr do sol, o que você pode experimentar é limitado apenas pela sua imaginação
                         </p>
                         <div class="product-info">
-                            <div>R$ 29,42</div>
+                            <span>R$ 29,42</span>
                         </div>
                     </div>
                 </div>
+                <div class="sliders-pointer">
+                    <div class="pointerr active1" onclick="marginZero()"></div>
+                    <div class="pointerr active2" onclick="marginOne()"></div>
+                    <div class="pointerr active3" onclick="marginThree()"></div>
+                    <div class="pointerr active4" onclick="marginFour()"></div>
+                    <div class="pointerr active5" onclick="marginFive()"></div>
+                    <div class="pointerr active6" onclick="marginSix()"></div>
+                  </div>
             </div>
         </section>
 
@@ -270,46 +272,48 @@
 
         <section id="news">
             <div class="conteiner">
+                <h2>Formulario para receber novidades envolvendo a MONSTER</h2>
                 <div class="flex-form">
                     <div class="flex-form-right">
                         <p>Isso foi um pouco sobre a monster, caso queria receber novidades, ou até mesmo promoções de alguns produtos, basta 
                             preencher o formulario ao lado, assim, sempre que um produto no for lançado, você será um dos primeiro a receber, além disso, quando 
-                            também receberá promoções mensais de nosso produtos
+                            também receberá promoções mensais dos nossos produtos.
                         </p>
                     </div>
                     <div class="flex-form-left">
                         <form id="form-monster">
-                            <label for="name">Nome completo</label>
+                            <label for="name">Nome completo:</label>
                             <input type="text" name="name" id="txtname" class="form-control" required><br />
 
-                            <label for="email">Email</label>
+                            <label for="email">Email:</label>
                             <input type="email" name="email" id="txtemail" class="form-control" required><br />
 
                             <label for="age">Qual a sua idade?</label>
                             <input type="number" name="age" id="txtage" class="form-control" min="16" required><br />
 
                             <label for="">Gostaria de receber as novidades e promoções sobre:</label><br/>
-                            
-                            <input type="checkbox" name="option1" class="input-box" value="MONSTER" checked>
-                            <label for="option1">MONSTER</label><br />
+                            <div class="form-check">
+                                <input type="checkbox" name="option1" class="input-box" value="MONSTER">
+                                <label for="option1">MONSTER</label><br />
 
-                            <input type="checkbox" name="option2" class="input-box" value="REIGN">
-                            <label for="option2">REIGN</label><br />
+                                <input type="checkbox" name="option2" class="input-box" value="REIGN">
+                                <label for="option2">REIGN</label><br />
 
-                            <input type="checkbox" name="option3" class="input-box" value="BURN">
-                            <label for="option3">BURN</label><br />
+                                <input type="checkbox" name="option3" class="input-box" value="BURN">
+                                <label for="option3">BURN</label><br />
 
-                            <input type="checkbox" name="option4" class="input-box" value="NOS">
-                            <label for="option4">NOS</label><br />
+                                <input type="checkbox" name="option4" class="input-box" value="NOS">
+                                <label for="option4">NOS</label><br />
 
-                            <input type="checkbox" name="option5" class="input-box" value="Full-Throttle">
-                            <label for="option5">Full Throttle</label><br />
+                                <input type="checkbox" name="option5" class="input-box" value="Full-Throttle">
+                                <label for="option5">Full Throttle</label><br />
 
-                            <input type="checkbox" name="option6" class="input-box" value="relentless">
-                            <label for="option6">Relentless</label><br />
+                                <input type="checkbox" name="option6" class="input-box" value="relentless">
+                                <label for="option6">Relentless</label><br />
 
-                            <input type="checkbox" name="option7" class="input-box" value="mother">
-                            <label for="option7">Mother</label><br />
+                                <input type="checkbox" name="option7" class="input-box" value="mother">
+                                <label for="option7">Mother</label><br />
+                            </div>
 
                             <div class="btn-form">
                                 <button type="button" id="subscrive" class="btn">Enviar</button>
@@ -320,6 +324,12 @@
             </div>
         </section>
     </main> 
+
+    <footer>
+        <h4>Projeto contruíndo para fins de aprendizagem, todos os diretos, tanto das imagens quanto dos textos 
+            pertencem a MONSTER
+        </h4>
+    </footer>
 
     <script src="Assets/JS/main.js"></script>
 </body>
