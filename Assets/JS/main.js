@@ -25,7 +25,7 @@ mnain.addEventListener("click", () => {
 
 
 function marginZero() {
-    currentSlide.style.marginLeft = "0px";
+    currentSlide.style.marginLeft = "0";
     ct1.style.background = "blue";
     ct2.style.background = "transparent";
     ct3.style.background = "transparent";
@@ -68,7 +68,7 @@ function marginFour() {
 }
 
 function marginFive() {
-    let newMargen = (4.02 * document.body.clientWidth);
+    let newMargen = (4 * document.body.clientWidth);
     currentSlide.style.marginLeft = `-${newMargen}px`;
     ct1.style.background = "transparent";
     ct2.style.background = "transparent";
@@ -79,7 +79,7 @@ function marginFive() {
 }
 
 function marginSix() {
-    let newMargen = (5.02 * document.body.clientWidth);
+    let newMargen = (5 * document.body.clientWidth);
     currentSlide.style.marginLeft = `-${newMargen}px`;
     ct1.style.background = "transparent";
     ct2.style.background = "transparent";
