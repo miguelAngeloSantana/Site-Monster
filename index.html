@@ -283,16 +283,19 @@
                     </div>
                     <div class="flex-form-left">
                         <form id="form-monster">
-                            <label for="name">Nome completo:</label>
-                            <input type="text" name="name" id="txtname" class="form-control" required><br />
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" id="txtname" class="form-control form-required" oninput="validarNome()">
+                            <span class="span-form">Seu nome deve ter no mínimo três letras</span><br />
 
                             <label for="email">Email:</label>
-                            <input type="email" name="email" id="txtemail" class="form-control" required><br />
+                            <input type="email" name="email" id="txtemail" class="form-control form-required" oninput="validarEmail()">
+                            <span class="span-form">Email inválido</span><br />
 
                             <label for="age">Qual a sua idade?</label>
-                            <input type="number" name="age" id="txtage" class="form-control" min="16" required><br />
+                            <input type="number" name="age" id="txtage" class="form-control form-required" min="16" oninput="validarIdade()">
+                            <span class="span-form">Você teve ter no mínimo 16 anos</span><br />
 
-                            <label for="">Gostaria de receber as novidades e promoções sobre:</label><br/>
+                            <label for="input-box">Gostaria de receber as novidades e promoções sobre:</label><br/>
                             <div class="form-check">
                                 <input type="checkbox" name="option1" class="input-box" value="MONSTER">
                                 <label for="option1">MONSTER</label><br />
@@ -313,11 +316,13 @@
                                 <label for="option6">Relentless</label><br />
 
                                 <input type="checkbox" name="option7" class="input-box" value="mother">
-                                <label for="option7">Mother</label><br />
+                                <label for="option7">Mother</label>
+
+                                <span class="span-form">Escolh pelo menos um</span><br />
                             </div>
 
                             <div class="btn-form">
-                                <button type="button" id="subscrive" class="btn">Enviar</button>
+                                <button type="submit" id="subscrive" class="btn">Enviar</button>
                             </div>
                         </form>
                     </div>
