@@ -16,7 +16,7 @@
                 </div> 
                 <nav id="menu-main">
                     <ul id="list-main">
-                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#about" class="jj">Sobre</a></li>
                         <li><a href="#different">Diferente</a></li>
                         <li><a href="#photo-galery">Sabores</a></li>
                         <li><a href="#products">Outros produtos</a></li>
@@ -215,7 +215,7 @@
                         </div>
                     </div>
 
-                    <div class="product-section reign">
+                    <div class="product-section mother">
                         <img src="Assets/images-monster-marcas/Mother-Engery-Drink.png" alt="Ilustração da lata Mother">
                         <h3>Mother</h3>
                         <p>Foi desenvolvida para a Austrália e Nova Zelândia pela Monster. Sendo mais voltada para os homens, servindo como uma fonte de energia
@@ -284,15 +284,15 @@
                     <div class="flex-form-left">
                         <form id="form-monster">
                             <label for="name">Nome:</label>
-                            <input type="text" name="name" id="txtname" class="form-control form-required" oninput="validarNome()">
+                            <input type="text" name="name" id="txtname" class="form-control form-required" oninput="validarNome()" minlength="3">
                             <span class="span-form">Seu nome deve ter no mínimo três letras</span><br />
 
                             <label for="email">Email:</label>
-                            <input type="email" name="email" id="txtemail" class="form-control form-required" oninput="validarEmail()">
+                            <input type="email" name="email" id="txtemail" class="form-control form-required" oninput="validarEmail()" required>
                             <span class="span-form">Email inválido</span><br />
 
                             <label for="age">Qual a sua idade?</label>
-                            <input type="number" name="age" id="txtage" class="form-control form-required" min="16" oninput="validarIdade()">
+                            <input type="number" name="age" id="txtage" class="form-control form-required" min="16" oninput="validarIdade()" required>
                             <span class="span-form">Você teve ter no mínimo 16 anos</span><br />
 
                             <label for="input-box">Gostaria de receber as novidades e promoções sobre:</label><br/>
@@ -322,7 +322,7 @@
                             </div>
 
                             <div class="btn-form">
-                                <button type="submit" id="subscrive" class="btn">Enviar</button>
+                                <button type="button" id="subscrive" class="btn">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -336,7 +336,7 @@
             pertencem a MONSTER
         </h4>
     </footer>
-
     <script src="Assets/JS/main.js"></script>
+    <script type="module" src="Assets/JS/app.js"></script>
 </body>
 </html>
