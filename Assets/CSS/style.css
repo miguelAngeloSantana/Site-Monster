@@ -414,7 +414,6 @@ header #hamburguer {
 }
 
 .flex-form .flex-form-right {
-    /* width: 50%; */
     flex: 1;
 }
 .flex-form .flex-form-right p {
@@ -577,7 +576,7 @@ footer h4 {
     }
     
     #products .pointerr.active1 {
-        background-color: blue;
+        background-color: green;
     }
 
     .product {
@@ -617,7 +616,11 @@ footer h4 {
         font-size: 2rem;
         line-height: 40px;
     }
-    .conteiner #menu-main #list-main, button {
+    .conteiner #menu-main #list-main {
+        display: none;
+    }
+
+    .menu .button {
         display: none;
     }
 
@@ -649,14 +652,19 @@ footer h4 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 18px;
         position: absolute;
         width: 70%;
         top: 50px;
         left: 17%;
-        height: 35%;
+        height: auto;
         padding-top: 50px;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-family: var(--fonte-principal);
+    }
+
+    .conteiner  #menu-main #list-main.view li:last-child {
+        padding-bottom: 50px;
     }
 
     .card-section .cards-section h3 {
@@ -821,8 +829,16 @@ footer h4 {
         padding: 18px 19px;
     }
 
+    #photo-galery .desc-galery {
+        font-family: var(--fonte-principal);
+    }
+
     #photo-galery .desc-galery h2 {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
+    }
+
+    #photo-galery .desc-galery p {
+        font-size: 1.5rem;
     }
 
     .section-foto .section-fotos h3 {
@@ -973,6 +989,14 @@ footer h4 {
         font-size: 1rem;
         line-height: 26px;
     }
+
+    #photo-galery .desc-galery h2 {
+        font-size: 2rem;
+    }
+
+    #photo-galery .desc-galery p {
+        font-size: 1.2rem;
+    }
     .section-foto {
         grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
     }
@@ -1002,6 +1026,11 @@ footer h4 {
      .flex-form .flex-form-right p {
         font-size: 1rem;
         line-height: 25px;
+     }
+
+     .flex-form .flex-form-left form label {
+        font-family: var(--fonte-principal);
+        font-size: 0.8rem;
      }
 } 
 
@@ -1034,5 +1063,17 @@ footer h4 {
 @media(max-width:320px) {
     .section-foto  {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+
+    .conteiner #menu-main #list-main.view {
+        width: 80%;
+        top: 110px;
+        left: 11%;
+        font-size: 0.8rem;
+    }
+
+    .conteiner  #menu-main #list-main.view li {
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }

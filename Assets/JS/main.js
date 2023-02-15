@@ -81,7 +81,7 @@ function validarCheck() {
 
 function marginZero() {
     currentSlide.style.marginLeft = "0";
-    ct[0].style.background = "blue";
+    ct[0].style.background = "green";
     ct[1].style.background = "transparent";
     ct[2].style.background = "transparent";
     ct[3].style.background = "transparent";
@@ -93,7 +93,7 @@ function marginOne() {
     let newMargen = (1 * document.body.clientWidth);
     currentSlide.style.marginLeft = `-${newMargen}px`;
     ct[0].style.background = "transparent";
-    ct[1].style.background = "blue";
+    ct[1].style.background = "green";
     ct[2].style.background = "transparent";
     ct[3].style.background = "transparent";
     ct[4].style.background = "transparent";
@@ -105,7 +105,7 @@ function marginThree() {
     currentSlide.style.marginLeft = `-${newMargen}px`;
     ct[0].style.background = "transparent";
     ct[1].style.background = "transparent";
-    ct[2].style.background = "blue";
+    ct[2].style.background = "green";
     ct[3].style.background = "transparent";
     ct[4].style.background = "transparent";
     ct[5].style.background = "transparent";
@@ -117,7 +117,7 @@ function marginFour() {
     ct[0].style.background = "transparent";
     ct[1].style.background = "transparent";
     ct[2].style.background = "transparent";
-    ct[3].style.background = "blue";
+    ct[3].style.background = "green";
     ct[4].style.background = "transparent";
     ct[5].style.background = "transparent";
 }
@@ -129,7 +129,7 @@ function marginFive() {
     ct[1].style.background = "transparent";
     ct[2].style.background = "transparent";
     ct[3].style.background = "transparent";
-    ct[4].style.background = "blue";
+    ct[4].style.background = "green";
     ct[5].style.background = "transparent";
 }
 
@@ -141,5 +141,5 @@ function marginSix() {
     ct[2].style.background = "transparent";
     ct[3].style.background = "transparent";
     ct[4].style.background = "transparent";
-    ct[5].style.background = "blue";
+    ct[5].style.background = "green";
 }
