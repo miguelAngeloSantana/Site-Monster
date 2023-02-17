@@ -14,8 +14,11 @@ Nesse projeto, eu criei um site inspirado no energético da Monster, onde é apr
 ![Mobile 2](https://github.com/miguelAngeloSantana/Site-Monster/blob/main/Assets/Design/Mobile-Design/Screenshot-mobile-Website-Monster-about.png)
 
 ![Mobile 3](https://github.com/miguelAngeloSantana/Site-Monster/blob/main/Assets/Design/Mobile-Design/Screenshot-mobile-Website-Monster-products.png) 
+
 ![Mobile 4](https://github.com/miguelAngeloSantana/Site-Monster/blob/main/Assets/Design/Mobile-Design/Screenshot-mobile-Website-Monster-marcas.png)
+
 ![Mobile 5](https://github.com/miguelAngeloSantana/Site-Monster/blob/main/Assets/Design/Mobile-Design/Screensho-mobile-Website-Monster-opiniao.png) 
+
 ![Mobile 6](https://github.com/miguelAngeloSantana/Site-Monster/blob/main/Assets/Design/Mobile-Design/Screenshot-mobile-Website-Monster-form.png)
 
 ## Layout web
